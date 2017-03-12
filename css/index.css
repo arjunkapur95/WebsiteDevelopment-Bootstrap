@@ -1,0 +1,75 @@
+body {
+	background-color: #44BBB9;
+	width: 1200px; 
+	margin: 0 auto; 
+	padding: 0px;
+	
+	}
+html{
+	background-color: #78A6DC;
+}
+h1 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 100;
+	font-size: 40pt;
+	border-bottom: 3px solid black;
+	margin: 55px;
+	text-align: center;
+	background-color: white;
+
+
+	}
+
+h2 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 15pt;
+	font-weight: 100;
+	text-align: center;
+	width: 1200px;
+	font-color: black
+	}
+h3 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 100;
+	font-size: 15pt;
+	border: 2px solid black
+	}	
+h4 {
+	font-size: 11pt;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-weight: 100;
+	border-bottom: 2px solid black
+	}
+
+h5 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	text-align: center;
+	font-size:15pt;
+	font-weight: 100;
+	margin: 0px;
+	
+	}
+h3, h4 {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	margin: 0px
+	}
+aside, article, section, header, footer, nav {
+	display: block;
+}
+p {
+text-align: center;
+	
+}
+div, p {
+	text-align: center;
+	margin: 0;
+	padding:0;
+	
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

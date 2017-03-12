@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Login with WebStorage</title>
+        <script src="login.js"></script>
+    </head>
+    
+    <body>
+        <div id="divID1">        
+            <h1 id="h1ID1">Login Page</h1>
+        </div>          
+        <form name = "myForm1">
+            First name is: <input type="text" name="firstname"><br>
+            Password: <input type="password" name="myPwd" maxlength=5>
+            <br><br>
+            <input type = "button" 
+                value ="Login" 
+                onClick="updateHeader(firstname, myPwd)">
+        </form>
+
+    </body>
+</html>

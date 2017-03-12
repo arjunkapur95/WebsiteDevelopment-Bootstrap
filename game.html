@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FighttheFat</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+   
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Original:  Anja Henseler -->
+<!-- Web Site:  http://www.hens.com/binoculars -->
+
+
+
+<!-- Begin
+	correct=0;
+	wrong=0;
+
+	function random(maxValue) 
+	{
+		day= new Date();
+		hour= day.getHours();
+		min=day.getMinutes();
+		sec=day.getSeconds();
+		mili=day.getTime()
+		return(((hour*3600)+(min*60)+(sec)+mili) % maxValue);
+	}
+	function ranom(maxValue) 
+	{
+		day= new Date();
+		mil=day.getTime();
+		return((mil) % maxValue);
+	}
+
+	function add() 
+	{
+		if(document.quizform.arithmetic[0].checked)
+		maxValue=10;
+		else 
+		{
+			if(document.quizform.arithmetic[1].checked)
+			maxValue=30;
+			else 
+			{
+				maxValue=60;
+   			}
+		}
+	numA=random(maxValue);
+	numB=ranom(maxValue);
+	numC=numA + numB;
+	Answer=window.prompt(  numA + "+"  + numB +  " = ", "");
+	ans();
+	}
+	function subtract() 
+	{
+		if(document.quizform.arithmetic[0].checked)
+		maxValue=10;
+		else
+		{
+			if(document.quizform.arithmetic[1].checked)
+			maxValue=30;
+			else 
+			{
+				maxValue=60;
+   			}
+		}
+		numA=random(maxValue);
+		numB=ranom(maxValue);
+		numC=numA - numB;
+		Answer=window.prompt(  numA + "-"  + numB+  " = ", 0);
+		ans()
+	}
+	function divide() 
+	{
+		if(document.quizform.arithmetic[0].checked)
+		maxValue=10;
+		else
+		 {
+			if(document.quizform.arithmetic[1].checked)
+			maxValue=30;
+			else 
+			{
+				maxValue=60;
+   			}
+		}
+	numA=random(maxValue)+1;
+	numB=ranom(maxValue)+1;
+	numC=numA / numB;
+	numC=Math.round(numC)
+		window.alert("Please round your answer off:\n"
+			+".5 or higher rounds one number up\n"
+			+".4 or lower rounds one number down");
+Answer=window.prompt(  numA + "/"  + numB +  " = ", 0);
+ans()
+}
+	function multiply() 
+	{
+	    if(document.quizform.arithmetic[0].checked)
+	    maxValue=10;
+	    	 else 
+		{
+			if(document.quizform.arithmetic[1].checked)
+			maxValue=30;
+			else 
+			{
+				maxValue=60
+   			}
+		}
+		numA=random(maxValue);
+		numB=ranom(maxValue);
+		numC=numA * numB;
+		Answer=window.prompt(  numA + "*"  + numB +  " = ", 0);
+		ans();
+	}
+
+	function check() 
+	{
+		if ((correct+wrong) != 0) 
+		{
+			score = "" + ((correct / (correct + wrong)) * 100);
+			score = score.substring(0,4) + "%";
+			alert("YOUR SCORE:  " + score + "\n"
+			+ correct + " correct\n"
+			+ wrong + " incorrect")
+		}
+		else
+		 alert("You have not completed any exercises yet.");
+	}
+
+	function ans() 
+	{
+		if (Answer == numC) 
+		{
+			correct++;
+			msg = "Congratulations, your answer is correct.";
+		}
+		else 
+		{
+			wrong++;
+			msg = "Oops!  " + Answer + " is incorrect.\n\n"
+			+ "The correct answer was " +numC + ".";
+   		}
+		
+		score = "" + ((correct / (correct + wrong)) * 100);
+		score = score.substring(0,4) + "%";
+		alert(msg + "\n\nYOUR SCORE:  " + score + "\n"
+		+ correct + " correct\n"
+		+ wrong + " incorrect")
+	}
+//  End -->
+</script>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">FighttheFat</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="index.html">Home</a>
+                  
+	   	    <li class="page-scroll">
+                        <a href="register.html">Register</a>
+                    </li>
+		    <li class="page-scroll">
+                        <a href="Faq.html">FAQ</a>
+                    </li>
+			
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	<p>This is an interactive math quiz(game) ,
+	where in the users can keep track of the number of questions and also challage themselves depending on the different levels of difficulty.
+	</p>
+	<center>
+		<form name=quizform>
+		<input type=button value="add" onClick="add()">
+		<input type=button value="subtract" onClick="subtract()">
+		<input type=button value="multiply" onClick="multiply()">
+		<input type=button value="divide" onClick="divide()">
+		<br>
+		<br>
+		<input type="radio" name="arithmetic">Easy
+		<input type="radio" name="arithmetic" checked>Moderate
+		<input type="radio" name="arithmetic">Difficult
+	<br>
+	<br>
+		<input type=button value="Check Score" onClick="check()">
+		<input type=button value="Reset Score" onClick="javascript:correct=0;wrong=0;">
+	</form>
+	</center>
+
+	
+</body>
+</html>
